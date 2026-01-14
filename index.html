@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      .head {
+        background-image: url(images/desktop/image-header.jpg);
+        width: 1470px;
+        height: 850px;
+      }
+      .cart1 {
+        background-image: url(images/desktop/image-graphic-design.jpg);
+      }
+      .cart2 {
+        background-image: url(images/desktop/image-photography.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container w-[1470px]">
+      <div class="head bg-cover bg-center h-[850px] w-full">
+        <div class="top flex text-white text-xl gap-190 p-10 items-center">
+          <img class="w-45" src="images/logo.svg" alt="" />
+          <div class="headtext flex text-white text-xl gap-8 items-center">
+            <p>About</p>
+            <p>Services</p>
+            <p>Projects</p>
+            <p
+              class="bg-white text-black font-bold text-sm font-serif p-2 pl-5 pr-5 rounded-full"
+            >
+              CONTACT
+            </p>
+          </div>
+        </div>
+        <div
+          class="toptop flex flex-col justify-center items-center h-50 min-h-screen pb-90 gap-20"
+        >
+          <p
+            class="text-white font-bold text-6xl font-serif p-2 pl-5 pr-5 rounded-full"
+          >
+            WE ARE CREATIVES
+          </p>
+          <img class="w-10" src="images/icon-arrow-down.svg" alt="" />
+        </div>
+      </div>
+      <div class="boxes w-[1470px] grid grid-cols-1 lg:grid-cols-2">
+        <div
+          class="box1 bg-white flex flex-col items-start gap-5 w-150 pl-40 pt-40"
+        >
+          <p class="text-4xl font-serif font-semibold w-100">
+            Transform your brand
+          </p>
+          <p class="text-sm opacity-60">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you
+          </p>
+          <button class="text-xs font-serif font-semibold">LEARN MORE</button>
+        </div>
+        <div class="box2 bg-yellow-400">
+          <img src="images/desktop/image-transform.jpg" alt="" />
+        </div>
+        <div class="box3 bg-red-400">
+          <img src="images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+        <div
+          class="box4 bg-slate-200 bg-white flex flex-col items-start gap-5 w-150 pl-40 pt-40"
+        >
+          <p class="text-4xl font-serif font-semibold w-100">
+            Stand out to the right audience
+          </p>
+          <p class="text-sm opacity-60">
+            Using a collaborative formula of designers, researchers,
+            photograpners, videograpners, and copywriters, well bulld and extend
+            your brand in digital places.
+          </p>
+          <button class="text-xs font-serif font-semibold">LEARN MORB</button>
+        </div>
+      </div>
+      <div class="designs w-[1470px] grid grid-cols-2 h-150">
+        <div class="cart1 flex items-end pb-20 justify-center">
+          <div
+            class="text w-80 flex flex-col items-center justify-center text-center gap-7"
+          >
+            <p class="text-3xl font-bold font-serif text-[hsl(167_40%_24%)]">
+              Graphic Design
+            </p>
+            <p class="text-[hsl(167_40%_24%)]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+              provident totam? Quis?Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="cart2 flex items-end pb-20 justify-center">
+          <div
+            class="text w-80 flex flex-col items-center justify-center text-center gap-7"
+          >
+            <p class="text-3xl font-bold font-serif text-[hsl(200,40%,24%)]">
+              Photography
+            </p>
+            <p class="text-[hsl(200,40%,24%)]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium id sint a voluptates ipsum possimus!
+            </p>
+          </div>
+        </div>
+      </div>
+      <p
+        class="pt-30 w-[1440px] flex justify-center font-serif font-bold text-gray-500 text-2xl"
+      >
+        CLIENT IESLIMONIALS
+      </p>
+      <div
+        class="avatars pt-20 pb-20 w-[1440px] flex gap-10 justify-center items-center"
+      >
+        <div
+          class="avatar1 w-90 flex flex-col items-center justify-center gap-12"
+        >
+          <img class="rounded-full w-20" src="images/image-emily.jpg" alt="" />
+          <p class="text-center text-gray-500 font-semibold">
+            we put our trust in sunnyside and they delivered, makina sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <div class="name flex flex-col items-center justify-center">
+            <p class="font-bold font-serif">Emily R.</p>
+            <p class="text-gray-400 font-normal">Lorem, ipsum.</p>
+          </div>
+        </div>
+        <div
+          class="avatar1 w-90 flex flex-col items-center justify-center gap-12"
+        >
+          <img class="rounded-full w-20" src="images/image-thomas.jpg" alt="" />
+          <p class="text-center text-gray-500 font-semibold">
+            Incredible end result. our sales Increased over 400% when we worked
+            with Sunnyside Highly recommended!
+          </p>
+          <div class="name flex flex-col items-center justify-center">
+            <p class="font-bold font-serif">Thomas S.</p>
+            <p class="text-gray-400 font-normal">Lorem, ipsum.</p>
+          </div>
+        </div>
+        <div
+          class="avatar1 w-90 flex flex-col items-center justify-center gap-12"
+        >
+          <img class="rounded-full w-20" src="images/image-jennie.jpg" alt="" />
+          <p class="text-center text-gray-500 font-semibold">
+            sunnysides entnuslasm coupled with their keen interest in our
+            brand's success made it a satisfying and enjoyable experience.
+          </p>
+          <div class="name flex flex-col items-center justify-center">
+            <p class="font-bold font-serif">Jennie F.</p>
+            <p class="text-gray-400 font-normal">Lorem, ipsum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="imgs w-[1470px] grid grid-cols-4">
+        <div class="img1">
+          <img src="images/desktop/image-gallery-milkbottles.jpg" alt="" />
+        </div>
+        <div class="img2">
+          <img src="images/desktop/image-gallery-orange.jpg" alt="" />
+        </div>
+        <div class="img3">
+          <img src="images/desktop/image-gallery-cone.jpg" alt="" />
+        </div>
+        <div class="img4">
+          <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+        </div>
+      </div>
+      <div
+        class="footer h-100 w-[1470px] flex flex-col items-center justify-center bg-[hsl(167,31%,54%)] gap-15"
+      >
+        <img class="w-40" src="images/logo.svg" alt="" />
+        <div class="foot flex gap-15">
+          <p class="text-[hsl(167,38%,23%)]">About</p>
+          <p class="text-[hsl(167,38%,23%)]">Services</p>
+          <p class="text-[hsl(167,38%,23%)]">Projects</p>
+        </div>
+        <div class="foot2 flex gap-5">
+          <img src="images/icon-facebook.svg" alt="" />
+          <img src="images/icon-instagram.svg" alt="" />
+          <img src="images/icon-twitter.svg" alt="" />
+          <img src="images/icon-pinterest.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
